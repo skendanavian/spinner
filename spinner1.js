@@ -1,6 +1,8 @@
+
+//Ex. of how \r works in the terminal
 // process.stdout.write('hello from spinner1.js... \rheyyy\n');
 
-
+//Creates an animation for loading time
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 100);
